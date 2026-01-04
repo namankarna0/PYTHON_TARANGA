@@ -1,4 +1,3 @@
-#python password security tool , deascription : You are required to build a menu- driven program that helps users to check the strength of password , simulate a secure login system . The program should use basic python concepts only and must run in terminal .
 import hashlib
 
 users = {}
@@ -56,4 +55,5 @@ while True:
     elif choice == "4":
         break
     else:
+
         print("Invalid choice. Please try again.\n")
